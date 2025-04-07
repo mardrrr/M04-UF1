@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #ffc107, #ffa000); 
+    background: linear-gradient(to bottom, #ffc107, #ffe082);
     color: #212121;
 }
 
@@ -11,6 +11,21 @@ header {
     color: #ffa000;
     padding: 10px 0;
     text-align: center;
+}
+
+h1 {
+    animation: slideIn 2s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 nav {
