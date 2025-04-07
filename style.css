@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffc107;
+    background: linear-gradient(to bottom, #ffc107, #ffe082); /* Gradiente añadido */
     color: #212121;
 }
 
@@ -17,6 +17,8 @@ nav {
     background-color: #444;
     padding: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 nav a {
@@ -78,22 +80,9 @@ footer {
     border: none;
     cursor: pointer;
 }
-nav {
-    background-color: #444;
-    padding: 10px;
-    text-align: center;
-    display: flex; /* Añadido para alinear los elementos */
-    align-items: center; /* Centrar verticalmente */
-}
-
-nav a {
-    color: #BDBDBD;
-    margin: 0 15px;
-    text-decoration: none;
-}
 
 .search-container {
-    margin-left: auto; /* Mueve la barra de búsqueda a la derecha */
+    margin-left: auto;
     display: flex;
 }
 
