@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GastroAlcalá - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="bares.html">Bares</a>
+        <a href="restaurantes.html">Restaurantes</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+        <div class="container">
+            <h1>Formulario de Consultas</h1>
+            <form id="consultaForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="tipoConsulta">Tipo de Consulta:</label>
+                <select id="tipoConsulta" name="tipoConsulta" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="restaurante">Recomendación de Restaurante</option>
+                    <option value="bar">Recomendación de Bar</option>
+                    <option value="otros">Otros</option>
+                </select>
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </div>
+    <footer>
+        <p>&copy; 2025 GastroAlcalá. Todos los derechos reservados.</p>
+    </footer>
+</html>
