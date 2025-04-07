@@ -14,7 +14,7 @@ header {
 }
 
 h1 {
-    animation: slideIn 2s ease-out;
+    animation: slideIn 5s ease-out;
 }
 
 @keyframes slideIn {
